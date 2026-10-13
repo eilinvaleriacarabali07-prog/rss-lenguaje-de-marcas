@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi servicio RSS 🐾</title>
+    <!-- Vinculación RSS para lectores de noticias -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml" />
+    
+    <!-- Fuente cute desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos Cute -->
+    <style>
+        :root {
+            --bg-color: #fff0f5;
+            --card-bg: #ffffff;
+            --primary-color: #ff94b9;
+            --primary-hover: #ff76a5;
+            --text-color: #5c4b51;
+            --border-color: #ffd1dc;
+        }
+
+        body {
+            font-family: 'Fredoka', cursive, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border: 3px solid var(--border-color);
+            border-radius: 25px;
+            padding: 30px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(255, 182, 193, 0.4);
+            position: relative;
+        }
+
+        /* Orejitas o adorno superior */
+        .container::before {
+            content: "🐱✨";
+            font-size: 2.5rem;
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--bg-color);
+            padding: 0 10px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /* Botón Cute para el enlace RSS */
+        .btn-rss {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(255, 148, 185, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-rss:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 6px 15px rgba(255, 148, 185, 0.6);
+        }
+
+        hr {
+            border: none;
+            border-top: 2px dashed var(--border-color);
+            margin: 25px 0;
+        }
+
+        .author {
+            background-color: #fff8fa;
+            padding: 10px 15px;
+            border-radius: 15px;
+            display: inline-block;
+            border: 1px solid var(--border-color);
+        }
+
+        .author b {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mi servicio RSS 🌸</h1>
+        <p>¡Bienvenido a mi canal de noticias cute! 🐾</p>
+        
+        <p>
+            <a class="btn-rss" href="feed.xml">📡 Ver el feed RSS</a>
+        </p>
+
+        <hr />
+
+        <div class="author">
+            <p>Soy: <b>Alejandro Gómez</b> ✨</p>
+        </div>

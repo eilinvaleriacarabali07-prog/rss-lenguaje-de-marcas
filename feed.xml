@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teoriasConspirativasNadiePregunto>
+
+    <!-- ARTÍCULO 1: HECHO CURIOSO DEL CUERPO -->
+    <articulo id="art_001" seleccionado="true">
+        <tipo>Hecho Curioso del Cuerpo</tipo>
+        <pregunta>¿No les pasa que...?</pregunta>
+        <!-- ESCRIBE AQUÍ TU HECHO CURIOSO DEL CUERPO -->
+        <descripcion>
+            Escribe aquí el hecho curioso sobre el cuerpo humano (ejemplo: ...¿no les pasa que a veces sienten que caen al vacío justo cuando se están quedando dormidos?).
+        </descripcion>
+        <busqueda>
+            <tag>cuerpo humano</tag>
+            <tag>cerebro</tag>
+            <tag>sueño</tag>
+            <tag>curiosidades</tag>
+        </busqueda>
+    </articulo>
+
+    <!-- ARTÍCULO 2: ALGO MÁS CONSPIRATIVO -->
+    <articulo id="art_002" seleccionado="false">
+        <tipo>Teoría Conspirativa</tipo>
+        <pregunta>¿Es verdad que...?</pregunta>
+        <!-- ESCRIBE AQUÍ TU TEORÍA CONSPIRATIVA -->
+        <descripcion>
+            Escribe aquí tu teoría más conspirativa (ejemplo: ...¿es verdad que los teléfonos escuchan nuestros pensamientos antes de que los digamos en voz alta?).
+        </descripcion>
+        <busqueda>
+            <tag>conspiracion</tag>
+            <tag>tecnologia</tag>
+            <tag>misterio</tag>
+            <tag>secreto</tag>
+        </busqueda>
+    </articulo>
+
+    <!-- PLANTILLA PARA AÑADIR MÁS ARTÍCULOS -->
+    <!--
+    <articulo id="art_003" seleccionado="false">
+        <tipo>Escribe el tipo de teoría</tipo>
+        <pregunta>Escribe la pregunta principal</pregunta>
+        <descripcion>Escribe aquí tu descripción o teoría</descripcion>
+        <busqueda>
+            <tag>palabra_clave_1</tag>
+            <tag>palabra_clave_2</tag>
+        </busqueda>
+    </articulo>
+    -->
+
+</teoriasConspirativasNadiePregunto>
